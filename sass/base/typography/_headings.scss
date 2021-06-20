@@ -1,0 +1,45 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+}
+
+h1 {
+	font-family: $font__main;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 72px;
+	line-height: 136%;
+	text-align: center;
+	font-feature-settings: 'salt' on, 'liga' off;
+}
+
+h2 {
+	font-family: $font__main;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 48px;
+	line-height: 133%;
+	font-feature-settings: 'salt' on, 'liga' off;
+}
+
+h5 {
+	font-family: $font__main;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 133%;
+	font-feature-settings: 'salt' on, 'liga' off;
+}
+
+h6 {
+	font-family: $font__main;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 150%;
+	font-feature-settings: 'salt' on, 'liga' off;
+}

@@ -1,0 +1,23 @@
+a {
+	color: $color__brand__turquoise;
+	text-decoration: unset;
+
+	&:visited {
+		color: $color__brand__turquoise__800;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__brand__turquoise__bold;
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
