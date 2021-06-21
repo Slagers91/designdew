@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid;
   min-height: 72px;
 }
 
@@ -37,7 +38,7 @@
 			}
 
 			a {
-				width: 200px;
+				
 			}
 
 			:hover > a,
@@ -119,5 +120,9 @@
 }
 
 .main-navigation li {
-    width: 90px;
+	padding: 0px 20px;
+}
+
+.main-navigation li:nth-child(1) {
+	padding: 0 20px 0 0;
 }
