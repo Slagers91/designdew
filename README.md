@@ -1,10 +1,9 @@
 <h1 align="center">
-  <img src="https://raw.githubusercontent.com/create-go-app/cli/master/.github/images/cgapp_logo%402x.png" width="224px"/><br/>
+  <img src="https://designdew.nl/wp-content/uploads/2020/02/Asset-2.svg" width="224px"/><br/>
   designdew Thema
 </h1>
 <p align="center">Een WordPress thema ontwikkeld door designdew.</p>
-
-<p align="center"><a href="https://github.com/create-go-app/cli/releases" target="_blank">/></p>
+<p align="center" font-size: 8px;>Versie 1.0</p>
 
 ## ⚡️ Snelle start
 
