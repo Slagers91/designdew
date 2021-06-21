@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://designdew.nl/wp-content/uploads/2020/02/Asset-2.svg" width="224px"/><br/>
+  <img src="https://designdew.nl/wp-content/uploads/2020/02/designdew_favicon.svg" width="224px"/><br/>
   designdew Thema
 </h1>
 <p align="center">Een WordPress thema ontwikkeld door designdew.</p>
