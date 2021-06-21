@@ -122,15 +122,55 @@ add_action( 'after_setup_theme', 'dd_content_width', 0 );
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 function dd_widgets_init() {
+	// First footer widget area, located in the footer. Empty by default.
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'dd' ),
-			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'dd' ),
-			'before_widget' => '<section id="%1$s" class="widget %2$s">',
-			'after_widget'  => '</section>',
-			'before_title'  => '<h2 class="widget-title">',
-			'after_title'   => '</h2>',
+			'name' => __( 'First Footer Widget Area', 'compass' ),
+			'id' => 'first-footer-widget-area',
+			'description' => __( 'The first footer widget area', 'compass' ),
+			'before_widget' => '<div class="widget-container %2$s" id="%1$s">',
+					'after_widget' => '</div>',
+			'before_title' => '<h3 class="widget-title">',
+					'after_title' => '</h3>'
+		)
+	);
+	
+	// Second Footer Widget Area, located in the footer. Empty by default.
+	register_sidebar(
+		array(
+			'name' => 'Second Footer Widget Area',
+			'id' => 'second-footer-widget-area',
+			'description' => 'The second footer widget area',
+			'before_widget' => '<div class="widget-container %2$s" id="%1$s">',
+					'after_widget' => '</div>',
+			'before_title' => '<h3 class="widget-title">',
+					'after_title' => '</h3>',
+		)
+	);
+	
+	// Third Footer Widget Area, located in the footer. Empty by default.
+	register_sidebar(
+		array(
+			'name' => 'Third Footer Widget Area',
+			'id' => 'third-footer-widget-area',
+			'description' => 'The third footer widget area',
+			'before_widget' => '<div class="widget-container %2$s" id="%1$s">',
+					'after_widget' => '</div>',
+			'before_title' => '<h3 class="widget-title">',
+					'after_title' => '</h3>',
+		)
+	);
+	
+	// Fourth Footer Widget Area, located in the footer. Empty by default.
+	register_sidebar(
+		array(
+			'name' => 'Fourth Footer Widget Area',
+			'id' => 'fourth-footer-widget-area',
+			'description' => 'The fourth footer widget area',
+			'before_widget' => '<div class="widget-container %2$s" id="%1$s">',
+					'after_widget' => '</div>',
+			'before_title' => '<h3 class="widget-title">',
+					'after_title' => '</h3>',
 		)
 	);
 }

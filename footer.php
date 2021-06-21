@@ -11,21 +11,14 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'dd' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'dd' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'dd' ), 'dd', '<a href="http://designdew.nl/">Ruud Slagers</a>' );
-				?>
-		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
+	<aside class="footer" role="complementary">
+	<div class="first quarter left widget-area"><?php dynamic_sidebar( 'first-footer-widget-area' ); ?></div><!-- .first .widget-area -->
+	<div class="second quarter widget-area"><?php dynamic_sidebar( 'second-footer-widget-area' ); ?></div><!-- .second .widget-area -->
+	<div class="third quarter widget-area"><?php dynamic_sidebar( 'third-footer-widget-area' ); ?></div><!-- .third .widget-area -->
+	<div class="fourth quarter right widget-area"><?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?></div><!-- .fourth .widget-area -->
+	</aside>
+	<!-- #fatfooter -->
+
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
