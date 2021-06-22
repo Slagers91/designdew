@@ -245,3 +245,5 @@ function register_assets()
     );
 }
 add_action('wp_enqueue_scripts', 'register_assets');
+
+define('THEMEDIR', get_template_directory_uri());
