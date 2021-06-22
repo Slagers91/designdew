@@ -1,0 +1,43 @@
+aside.footer {
+    display: flex;
+	background-color: $color__brand__turquoise;
+	padding: 4em 0;
+	background-image: url(../../assets/img/placeholder.com-logo1.png);
+	background-size: 100% 100%;
+}
+
+.first.quarter.left.widget-area {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    align-content: flex-start;
+	color: $color__brand__turquoise__100;
+}
+
+.second.quarter.widget-area {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+	color: $color__brand__turquoise__100;
+}
+
+.third.quarter.widget-area {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+	color: $color__brand__turquoise__100;
+}
+
+.fourth.quarter.right.widget-area {
+	display: flex;
+    flex-direction: column;
+    width: 25%;
+	color: $color__brand__turquoise__100;
+}
+
+.footer a {
+	color: $color__brand__turquoise__100;
+}
