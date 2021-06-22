@@ -14,7 +14,7 @@ if (!mix.inProduction()) {
             children: true,
         } });
     mix.browserSync({
-      proxy: 'http://localhost:10008/',
+      proxy: 'http://designdew.test/',
       open: false,
       notify: false,
       files: ['dist/styles/**/*.css', 'dist/scripts/**/*.js', '**/*.php'],

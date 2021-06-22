@@ -76,6 +76,10 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 // @import "layouts/content-sidebar"; // Uncomment this line for a sidebar on right side of your content.
 // @import "layouts/sidebar-content"; // Uncomment this line for a sidebar on left side of your content.
 
+/* Bootstrap
+--------------------------------------------- */
+@import "~bootstrap/dist/css/bootstrap-grid.css";
+
 /*--------------------------------------------------------------
 # Components
 --------------------------------------------------------------*/
@@ -100,6 +104,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Alignments
 --------------------------------------------- */
 @import "utilities/alignments";
+
 
 /* Footer
 --------------------------------------------- */
