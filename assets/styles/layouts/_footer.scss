@@ -49,3 +49,32 @@ aside.footer {
 .footer ul {
     list-style-type: none;
 }
+
+#media_image-2 {
+    width: 151px;
+    height: 42px;
+}
+
+.footer .textwidget {
+    padding-right: 5em;
+}
+
+.footer #media_image-3 {
+    height: 24px;
+    width: 24px;
+}
+
+.footer #media_image-4 {
+    height: 24px;
+    width: 24px;
+}
+
+.footer ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-icon {
+    max-width: 20px;
+    margin-right: 10px;
+}
