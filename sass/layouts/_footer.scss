@@ -2,8 +2,12 @@ aside.footer {
     display: flex;
 	background-color: $color__brand__turquoise;
 	padding: 4em 0;
-	background-image: url(../../assets/img/placeholder.com-logo1.png);
-	background-size: 100% 100%;
+}
+
+.footer {
+	background-image: url(/wp-content/uploads/2021/06/dd-footer.svg);
+	background-repeat: no-repeat;
+	background-size: 180% 100%;
 }
 
 .first.quarter.left.widget-area {
