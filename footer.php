@@ -11,7 +11,7 @@
 
 ?>
 
-	<aside class="footer" role="complementary">
+	<aside class="footer" role="designdewary">
 
 	<div class="container">
 		<div class="row">
