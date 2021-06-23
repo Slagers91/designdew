@@ -89,6 +89,7 @@ h3.widget-title {
 
 .footer li {
     padding-bottom: 10px;
+    padding-right: 30px;
 }
 
 .footer-icon {
@@ -104,4 +105,36 @@ h3.widget-title {
 #text-3 > div > p:nth-child(1) {
     margin: 0;
     margin-bottom: 10px;
+}
+
+.menu-footer-2-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+#menu-footer-2 {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+#menu-footer-2 .menu-item::after {
+    content: "";
+    border-left: 1px solid $color__brand__turquoise__100;
+    margin-left: 15px;
+}
+
+#menu-footer-2 .menu-item:nth-child(3)::after {
+    content: unset;
+}
+
+.footer .col-sm {
+    color: $color__brand__turquoise__100;
+}
+
+.row.coloform {
+    margin-top: 4em;
+    margin-bottom: -3em;
 }

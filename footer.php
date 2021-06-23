@@ -28,6 +28,21 @@
 			<?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?>
 			</div>
 		</div>
+		<div class="row coloform">
+		<div class="col-sm">
+		© 2021 designdew
+			</div>
+			<div class="col-sm">
+			<?php
+			wp_nav_menu(
+				array(
+					'menu' => 'footer-2'
+				)
+			);
+			?>
+			</div>
+		
+		</div>
 	</div>
 
 	</aside>
