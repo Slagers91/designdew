@@ -30,7 +30,7 @@
 		</div>
 		<div class="row coloform">
 		<div class="col-sm">
-		© 2021 designdew
+		&copy; 2017 - <?php echo date("Y"); ?>  designdew
 			</div>
 			<div class="col-sm">
 			<?php
