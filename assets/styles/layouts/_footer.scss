@@ -63,6 +63,10 @@ h3.widget-title {
 .footer .textwidget {
     padding-right: 1em;
     color: $color__brand__turquoise__100;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
 .footer #media_image-3 {
@@ -90,4 +94,14 @@ h3.widget-title {
 .footer-icon {
     max-width: 20px;
     margin-right: 20px;
+}
+
+.footer p {
+    display: flex;
+    margin: 10px 0;
+}
+
+#text-3 > div > p:nth-child(1) {
+    margin: 0;
+    margin-bottom: 10px;
 }
