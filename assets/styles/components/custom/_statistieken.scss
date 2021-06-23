@@ -18,3 +18,19 @@
 .statistieken p {
 	text-align: center;
 }
+
+.statistieken .row .col-sm {
+	height: 300px;
+}
+
+.statistieken .row .col-sm::before {
+	content: "";
+    border-left: 1px solid #D5FAFC;
+	height: 5%;
+	margin-top: 3%;
+	position: absolute;
+}
+
+.statistieken .row .col-sm:nth-child(1):before {
+	content: unset;
+}

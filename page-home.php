@@ -43,19 +43,19 @@
 	<div class="row">
 			<div class="col-sm">
 				<h2>10+</h2>
-				<p>Websites/webshops</p>
+				<p class="sub-text">Websites/webshops</p>
 			</div>
 			<div class="col-sm">
 			<h2>10+</h2>
-				<p>Tevreden klanten</p>
+				<p class="sub-text">Tevreden klanten</p>
 			</div>
 			<div class="col-sm">
 			<h2>4x</h2>
-				<p>De gehele website vernieuwd</p>
+				<p class="sub-text">De gehele website vernieuwd</p>
 			</div>
 			<div class="col-sm">
 			<h2>3</h2>
-				<p>Jaar bestaan we</p>
+				<p class="sub-text">Jaar bestaan we</p>
 			</div>
 		</div>
 
