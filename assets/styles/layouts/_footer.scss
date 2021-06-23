@@ -50,23 +50,32 @@ aside.footer {
     list-style-type: none;
 }
 
+h3.widget-title {
+    color: $color__brand__turquoise__100;
+}
+
 #media_image-2 {
     width: 151px;
     height: 42px;
+    margin-top: 10px;
 }
 
 .footer .textwidget {
-    padding-right: 5em;
+    padding-right: 1em;
+    color: $color__brand__turquoise__100;
 }
 
 .footer #media_image-3 {
     height: 24px;
     width: 24px;
+    display: inline-flex;
+    margin-right: 10px;
 }
 
 .footer #media_image-4 {
     height: 24px;
     width: 24px;
+    display: inline-flex;
 }
 
 .footer ul, ol {
@@ -74,7 +83,11 @@ aside.footer {
     padding: 0;
 }
 
+.footer li {
+    padding-bottom: 10px;
+}
+
 .footer-icon {
     max-width: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
 }

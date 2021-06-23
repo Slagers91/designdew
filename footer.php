@@ -12,13 +12,27 @@
 ?>
 
 	<aside class="footer" role="complementary">
-	<div class="first quarter left widget-area"><?php dynamic_sidebar( 'first-footer-widget-area' ); ?></div><!-- .first .widget-area -->
-	<div class="second quarter widget-area"><?php dynamic_sidebar( 'second-footer-widget-area' ); ?></div><!-- .second .widget-area -->
-	<div class="third quarter widget-area"><?php dynamic_sidebar( 'third-footer-widget-area' ); ?></div><!-- .third .widget-area -->
-	<div class="fourth quarter right widget-area"><?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?></div><!-- .fourth .widget-area -->
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm">
+			<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
+			</div>
+			<div class="col-sm">
+			<?php dynamic_sidebar( 'second-footer-widget-area' ); ?>
+			</div>
+			<div class="col-sm">
+			<?php dynamic_sidebar( 'third-footer-widget-area' ); ?>
+			</div>
+			<div class="col-sm">
+			<?php dynamic_sidebar( 'fourth-footer-widget-area' ); ?>
+			</div>
+		</div>
+	</div>
+
 	</aside>
 	<!-- #fatfooter -->
-
+</div>
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
