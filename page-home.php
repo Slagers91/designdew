@@ -5,7 +5,7 @@
 <section class="hero">
 	<div class="container">
 		<h1>Brengt ideeën tot leven en laat ze groeien op het web.</h1>
-		<button>Bekijk projecten</button>
+		<button onclick="location.href='#projecten'" type="button">Bekijk projecten</button>
 
 		<div class="hero-img">
 			<img src="<?php THEMEDIR; ?>/wp-content/themes/designdew/dist/images/iPhone X.png" alt="">
@@ -53,7 +53,7 @@
 </section>
 
 <!-------------------- RECENTE PROJECTEN -------------------->
-<section class="recente-projecten"><!--RECENTE PROJECTEN-->
+<section id="projecten" class="recente-projecten"><!--RECENTE PROJECTEN-->
 	<div class="container"><!--CONTAINER-->
 		<h2>Recente projecten</h2>
 		<div class="row"><!--ROW-->
@@ -120,6 +120,40 @@
 			<div class="col-sm">
 			<h2>3</h2>
 				<p class="sub-text">Jaar bestaan we</p>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+<!-------------------- ONZE WERKWIJZE -------------------->
+<section class="werkwijze">
+	<div class="container">
+	<h2>Onze werkwijze</h2>
+	<div class="row">
+			<div class="col-sm">
+				<div class="ronde-lijn">
+				<div class="ronde">
+					<div class="lijn"></div>
+				</div>
+				</div>
+				<h6>Ontmoeting</h6>
+				<p class="sub-text">Vrijblijvend en efficiënt. Stellen samen de doelen en wensen op.</p>
+			</div>
+			<div class="col-sm">
+			<div class="ronde"></div>
+			<h6>Design</h6>
+				<p class="sub-text">Wij gaan aan de slag om een passend ontwerp te maken. </p>
+			</div>
+			<div class="col-sm">
+			<div class="ronde"></div>
+			<h6>Development</h6>
+				<p class="sub-text">Design goedgekeurd? Dan gaan wij het omzetten naar een werkend product.</p>
+			</div>
+			<div class="col-sm">
+			<div class="ronde"></div>
+			<h6>Live</h6>
+				<p class="sub-text">Na de feedback rondes helemaal tevreden? Dan gaan we de website live zetten.</p>
 			</div>
 		</div>
 

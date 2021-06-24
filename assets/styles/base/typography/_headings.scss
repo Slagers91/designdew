@@ -13,8 +13,9 @@ h1 {
 	font-weight: 800;
 	font-size: 30px;
 	color: #18191F;
-	line-height: 136%;
+	line-height: 126%;
 	text-align: center;
+	letter-spacing: -1px;
 	font-feature-settings: 'salt' on, 'liga' off;
 
 	@include breakpoint(md){

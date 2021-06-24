@@ -1,0 +1,18 @@
+.werkwijze .ronde {
+    // display: flex;
+    align-items: center;
+}
+
+.werkwijze .ronde {
+    background-color: $color__brand__turquoise;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.werkwijze .ronde .lijn {
+    border: 1px dashed $color__brand__turquoise;
+    opacity: 0.4;
+    // position: static;
+    width: 150px;
+}

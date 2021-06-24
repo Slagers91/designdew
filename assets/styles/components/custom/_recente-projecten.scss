@@ -9,3 +9,8 @@
 .recente-projecten .subtitel {
     margin-top: -30px;
 }
+
+#projecten {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
