@@ -1,3 +1,7 @@
+.onze-diensten {
+    padding: 5em 0;
+}
+
 .onze-diensten .avatar {
     width: 56px;
     height: 56px;
@@ -5,8 +9,10 @@
 
 .onze-diensten .subtext {
     margin-top: -20px;
+    padding-right: 30px;
+    font-size: 16px;
 }
 
 .onze-diensten a::after {
-    content: '\2216';
+    content: ' \2192';
 }
