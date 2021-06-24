@@ -5,9 +5,10 @@ aside.footer {
 }
 
 .footer {
-	background-image: url(/wp-content/uploads/2021/06/dd-footer.svg);
+    background-image: url(/wp-content/themes/designdew/dist/images/Patterns.svg), url(/wp-content/uploads/2021/06/dd-footer.svg);
 	background-repeat: no-repeat;
 	background-size: 180% 100%;
+    background-position: right, left;
 }
 
 .first.quarter.left.widget-area {
