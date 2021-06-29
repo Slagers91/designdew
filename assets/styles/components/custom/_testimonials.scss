@@ -1,0 +1,55 @@
+.klantervaringen {
+    background-color: #F4F5F7;
+    padding: 3em;
+}
+
+.klantervaringen h2, h4, h5 {
+   text-align: center;
+}
+
+.klantervaringen h4 {
+    margin-top: 1em;
+ }
+
+.klantervaringen p {
+    text-align: center;
+    margin-top: -1.5em;
+    margin-bottom: 3em;
+ }
+
+.klantervaringen .avatar {
+    height: 56px;
+    width: 56px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+.klantervaringen .box {
+    padding:30px;
+    background-color:#fff;
+    position:relative;
+  }
+  
+.klantervaringen .box:after {
+    content:'';
+    position:absolute;
+    left:45%;
+    bottom:-24px;
+    width:0;
+    height:0;
+    border:15px solid transparent;
+    border-width:12px 15px;
+    border-top-color:#fff;
+  }
+  
+  .klantervaringen p {
+    color:#7d8285;
+  }
+  
+  @media (max-width:767px) {
+    .klantervaringen h2 {
+      margin-bottom:25px;
+      padding-top:25px;
+      font-size:24px;
+    }
+  }

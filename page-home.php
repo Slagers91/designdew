@@ -185,6 +185,51 @@
 	</div><!--CONTAINER-->
 </section><!--BLOG-->
 
+<!-------------------- ONZE KLANTERVARINGEN -------------------->
+<section class="klantervaringen"><!--ONZE-KLANTERVARINGEN-->
+	<div class="container"><!--CONTAINER-->
+		<div class="intro"><!--INTRO-->
+			<h2>Onze klantervaringen</h2>
+			<p>Laat de klanten voor ons spreken.</p>
+		</div><!--INTRO-->
+		<div class="row"><!--ROW-->
+			<div class="col-sm"><!--COL-SM-1-->
+				<div class="box">
+					<h5>"Fijne samenwerking"</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+				</div>
+				<div class="avatar">
+				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+				</div>
+				<h4>Karlijn Franken</h4>
+				<p>Medeoprichtster - Los Pinos</p>
+			</div><!--COL-SM-1-->
+			<div class="col-sm"><!--COL-SM-2-->
+			<div class="box">
+					<h5>"Computermannen"</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+				</div>
+				<div class="avatar">
+				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+				</div>
+				<h4>Pieter Burgers</h4>
+				<p>Oprichter - Allround Taxaties</p>
+			</div><!--COL-SM-2-->
+			<div class="col-sm"><!--COL-SM-3-->
+			<div class="box">
+					<h5>"Wauw goed gemaakt"</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+				</div>
+				<div class="avatar">
+				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+				</div>
+				<h4>Merlijn Romano</h4>
+				<p>Oprichtster - Mea-Interieurs</p>
+			</div><!--COL-SM-3-->
+		</div><!--ROW-->
+	</div><!--CONTAINER-->
+</section><!--ONZE-KLANTENERVARINGEN-->
+
 <?php
 
 get_footer();
