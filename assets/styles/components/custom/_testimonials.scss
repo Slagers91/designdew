@@ -1,14 +1,19 @@
+.intro h2 {
+  text-align: center;
+}
+
 .klantervaringen {
     background-color: #F4F5F7;
     padding: 3em;
 }
 
-.klantervaringen h2, h4, h5 {
+.klantervaringen h4 {
    text-align: center;
+   margin-top: 1em;
 }
 
-.klantervaringen h4 {
-    margin-top: 1em;
+.box h5 {
+  text-align: center;
  }
 
 .klantervaringen p {

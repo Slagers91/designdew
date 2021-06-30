@@ -99,6 +99,51 @@
 	</div><!--CONTAINER-->
 </section><!--RECENTE PROJECTEN-->
 
+<!-------------------- OVER ONS -------------------->
+<section id="over-ons" class="over-ons"><!--OVER ONS-->
+	<div class="container"><!--CONTAINER-->
+		<div class="row"><!--ROW-->
+			<div class="col-sm"><!--COL-SM-1-->
+				<div class="top">
+					<div class="afbeelding-1">
+						<img src="/wp-content/themes/designdew/dist/images/Over-ons-linksboven.png" alt="">
+					</div>
+					<div class="afbeelding-2">
+						<img src="/wp-content/themes/designdew/dist/images/Over-ons-rechtsboven.png" alt="">
+					</div>
+				</div>
+				<div class="bottom">
+					<div class="afbeelding-3">
+						<img src="/wp-content/themes/designdew/dist/images/Over-ons-linksonder.png" alt="">
+					</div>
+					<div class="afbeelding-4">
+						<img src="/wp-content/themes/designdew/dist/images/Over-ons-rechtsonder.png" alt="">
+					</div>
+				</div>
+			</div><!--COL-SM-1-->
+			<div class="col-sm"><!--COL-SM-2-->
+				<h2>Over ons</h2>
+				<div class="avatar">
+				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+				</div>
+				<h5>Amin Pašalić</h5>
+				<div class="subtext">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+					<a src="#">LinkedIn</a>
+				</div>
+				<div class="avatar">
+				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+				</div>
+				<h5>Ruud Slagers</h5>
+				<div class="subtext">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
+					<a src="#">LinkedIn</a>
+				</div>
+			</div><!--COL-SM-2-->
+		</div><!--ROW-->
+	</div><!--CONTAINER-->
+</section><!--RECENTE PROJECTEN-->
+
 <!-------------------- STATISTIEKEN -------------------->
 <section class="statistieken"><!--STATISTIEKEN-->
 	<div class="container"><!--CONTAINER-->
@@ -187,7 +232,7 @@
 
 <!-------------------- ONZE KLANTERVARINGEN -------------------->
 <section class="klantervaringen"><!--ONZE-KLANTERVARINGEN-->
-	<div class="container"><!--CONTAINER-->
+	<div class="container klantervaringen"><!--CONTAINER-->
 		<div class="intro"><!--INTRO-->
 			<h2>Onze klantervaringen</h2>
 			<p>Laat de klanten voor ons spreken.</p>
