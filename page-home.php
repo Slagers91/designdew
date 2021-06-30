@@ -53,51 +53,63 @@
 </section><!--ONZE-DIENSTEN-->
 
 <!-------------------- RECENTE PROJECTEN -------------------->
-<section id="projecten" class="recente-projecten"><!--RECENTE PROJECTEN-->
-	<div class="container"><!--CONTAINER-->
-		<h2>Recente projecten</h2>
-		<div class="row"><!--ROW-->
-			<div class="col-sm"><!--COL-SM-1-->
-				<div class="project-afbeelding">
-				<img src="/wp-content/themes/designdew/dist/images/Mea-Interieurs-Webshop-Project.png" alt="">
-				</div>
-				<h5>Mea Interieurs</h5>
-				<div class="subtitel">
-					<p>Webshop</p>
-				</div>
-			</div><!--COL-SM-1-->
-			<div class="col-sm"><!--COL-SM-2-->
-				<div class="project-afbeelding">
-				<img src="/wp-content/themes/designdew/dist/images/Allround-Taxaties-Website-Project.png" alt="">
-				</div>
-				<h5>Allround Taxaties</h5>
-				<div class="subtitel">
-					<p>Website</p>
-				</div>
-			</div><!--COL-SM-2-->
-		</div><!--ROW-->
-		<div class="row twee"><!--ROW-->
-			<div class="col-sm"><!--COL-SM-3-->
-				<div class="project-afbeelding">
-				<img src="/wp-content/themes/designdew/dist/images/Mea-Interieurs-Webshop-Project.png" alt="">
-				</div>
-				<h5>Mea Interieurs</h5>
-				<div class="subtitel">
-					<p>Webshop</p>
-				</div>
-			</div><!--COL-SM-3-->
-			<div class="col-sm"><!--COL-SM-4-->
-				<div class="project-afbeelding">
-				<img src="/wp-content/themes/designdew/dist/images/Allround-Taxaties-Website-Project.png" alt="">
-				</div>
-				<h5>Allround Taxaties</h5>
-				<div class="subtitel">
-					<p>Website</p>
-				</div>
-			</div><!--COL-SM-4-->
-		</div><!--ROW-->
-	</div><!--CONTAINER-->
-</section><!--RECENTE PROJECTEN-->
+	<section class="projecten"><!--PROJECTEN-->
+  		<div class="container"><!--CONTAINER-->
+    		<div class="grid"><!--GRID-->
+				<div class="row"><!--ROW-->
+					<h2>Recente projecten</h2>
+      				<div class="col-sm"><!--COL-SM-1-->
+        				<figure class="img-container">
+						<img src="/wp-content/themes/designdew/dist/images/Mea-Interieurs-Webshop-Project.png" alt="">
+          				<span class="img-content-hover">
+            			<h2 class="title">Bekijk het project</h2>
+          				</span>
+        				</figure>
+						<h5>Mea Interieurs</h5>
+						<div class="subtitel">
+							<p>Webshop</p>
+						</div>
+      				</div><!--COL-SM-1-->
+      				<div class="col-sm"><!--COL-SM-2-->
+        				<figure class="img-container">
+						<img src="/wp-content/themes/designdew/dist/images/Allround-Taxaties-Website-Project.png" alt="">
+          				<span class="img-content-hover">
+		  				<h2 class="title">Bekijk het project</h2>
+          				</span>
+        				</figure>
+						<h5>Allround Taxaties</h5>
+						<div class="subtitel">
+						<p>Website</p>
+					</div><!--COL-SM-2-->
+      			</div><!--ROW-->
+				  <div class="row"><!--ROW-->
+      				<div class="col-sm"><!--COL-SM-3-->
+        				<figure class="img-container">
+						<img src="/wp-content/themes/designdew/dist/images/Mea-Interieurs-Webshop-Project.png" alt="">
+          				<span class="img-content-hover">
+            			<h2 class="title">Bekijk het project</h2>
+          				</span>
+        				</figure>
+						<h5>Mea Interieurs</h5>
+						<div class="subtitel">
+							<p>Webshop</p>
+						</div>
+      				</div><!--COL-SM-3-->
+      				<div class="col-sm"><!--COL-SM-4-->
+        				<figure class="img-container">
+						<img src="/wp-content/themes/designdew/dist/images/Allround-Taxaties-Website-Project.png" alt="">
+          				<span class="img-content-hover">
+		  				<h2 class="title">Bekijk het project</h2>
+          				</span>
+        				</figure>
+						<h5>Allround Taxaties</h5>
+						<div class="subtitel">
+						<p>Website</p>
+					</div><!--COL-SM-4-->
+      			</div><!--ROW-->
+			</div><!--GRID-->
+    	</div><!--CONTAINER-->
+	</section><!--PROJECTEN-->
 
 <!-------------------- OVER ONS -------------------->
 <section id="over-ons" class="over-ons"><!--OVER ONS-->
