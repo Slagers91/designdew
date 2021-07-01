@@ -1,0 +1,44 @@
+/* Transition with cover screen */
+.with-cover-leave-active,
+.with-cover-enter-active,
+.with-cover-leave-active .transition,
+.with-cover-enter-active .transition {
+    transition: transform 0.5s var(--easing);
+}
+
+
+/* with-Cover in */
+.with-cover-leave .transition {
+    transform: translateY(-100%);
+}
+.with-cover-leave-to .transition {
+    transform: translateY(0);
+}
+
+/* with-Cover out */
+.with-cover-enter .transition {
+    transform: translateY(0);
+}
+.with-cover-enter-to .transition {
+    transform: translateY(100%);
+}
+
+.content {
+    transition: all 0.3s ease-out;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .transition {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #c8cc98;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-100%);
+    z-index: 1;
+  }

@@ -1,6 +1,8 @@
 <?php /* Template Name: Homepage */ ?>
 <?php get_header(); ?>
 
+<div class="wrapper" data-barba="container" data-barba-namespace="home">
+
 <!------------------------ HERO ------------------------->
 <section class="hero"><!--HERO-->
 	<div class="container"><!--CONTAINER-->
@@ -57,9 +59,20 @@
 	<div class="container"><!--CONTAINER-->
 		<h2>Recente projecten</h2>
 		<div class="row"><!--ROW-->
+<<<<<<< Updated upstream
 			<div class="col-sm"><!--COL-SM-1-->
 				<div class="project-afbeelding">
 				<img src="/wp-content/themes/designdew/dist/images/Mea-Interieurs-Webshop-Project.png" alt="">
+=======
+			<div class="col-sm linksclera"><!--COL-SM-1-->
+				<div class="top">
+					<div class="afbeelding-1">
+						<img src="/wp-content/themes/designdew/dist/images/Over-ons-linksboven.png" alt="">
+					</div>
+					<div class="afbeelding-2">
+						<img src="/wp-content/themes/designdew/dist/images/Over-ons-rechtsboven.png" alt="">
+					</div>
+>>>>>>> Stashed changes
 				</div>
 				<h5>Mea Interieurs</h5>
 				<div class="subtitel">
