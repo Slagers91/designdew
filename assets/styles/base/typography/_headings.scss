@@ -11,7 +11,7 @@ h1 {
 	font-family: $font__main;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 30px;
+	font-size: 34px;
 	color: #18191F;
 	line-height: 126%;
 	text-align: center;
@@ -27,9 +27,13 @@ h2 {
 	font-family: $font__main;
 	font-style: normal;
 	font-weight: 800;
-	font-size: 48px;
+	font-size: 32px;
 	line-height: 133%;
 	font-feature-settings: 'salt' on, 'liga' off;
+
+	@include breakpoint(md){
+		font-size: 48px;
+	}
 }
 
 h4 {

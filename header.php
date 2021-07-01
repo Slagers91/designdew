@@ -49,7 +49,9 @@
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'dd' ); ?></button>
+			<div class="menu-btn">
+			<button class="menu-toggle menu-btn__burger" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e('Menu'); ?></button>
+			</div>
 			<?php
 			wp_nav_menu(
 				array(
@@ -60,7 +62,7 @@
 			?>
 		</nav><!-- #site-navigation -->
 
-		<button type="button">Kom in contact</button> 
+		<button type="button" class="menu-knop">Kom in contact</button> 
 		</div>
 		</div>
 	</header><!-- #masthead -->

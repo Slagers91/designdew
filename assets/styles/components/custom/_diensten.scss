@@ -2,15 +2,29 @@
     padding: 5em 0;
 }
 
-.onze-diensten .avatar {
-    width: 56px;
-    height: 56px;
+.onze-diensten .container {
+    padding-left: 2em;
+    padding-right: 2em;
+    
+    @include breakpoint(md){
+		padding-left: unset;
+        padding-right: unset;
+	}
 }
 
 .onze-diensten .subtext {
-    margin-top: -20px;
-    padding-right: 30px;
-    font-size: 16px;
+    padding-right: unset;
+
+    @include breakpoint(md){
+        padding-right: 30px;
+        margin-top: -20px;
+        font-size: 16px;
+	}
+}
+
+.onze-diensten .avatar {
+    width: 56px;
+    height: 56px;
 }
 
 .onze-diensten a::after {

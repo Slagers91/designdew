@@ -8,7 +8,13 @@
 }
 
 .header {
+	overflow: hidden;
+	background-color: #fff;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%; /* Full width */
 	box-shadow: 0px 1px 0px #E5E9F2;
+	z-index: 99;
 }
 
 @media screen and (min-width: 600px) {
@@ -104,12 +110,27 @@
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	border: unset;
+    border-color: unset;
+    border-radius: unset;
+    background: unset;
+    color: unset;
+    line-height: unset;
+    padding: unset;
+}
+
+.menu-knop {
+    display: none;
 }
 
 @media screen and (min-width: 37.5em) {
 
 	.menu-toggle {
 		display: none;
+	}
+
+	.menu-knop {
+		display: inline;
 	}
 
 	.main-navigation ul {

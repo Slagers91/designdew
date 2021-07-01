@@ -18,9 +18,9 @@
 	<div class="container"><!--CONTAINER-->
 		<h2>Onze Diensten</h2>
 		<div class="row"><!--ROW-->
-			<div class="col-sm"><!--COL-SM-1-->
+			<div class="col-sm een"><!--COL-SM-1-->
 				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+				<img src="/wp-content/themes/designdew/dist/images/website.svg" alt="">
 				</div>
 				<h5>Websites</h5>
 				<div class="subtext">
@@ -28,9 +28,9 @@
 					<a src="#">Kom meer te weten</a>
 				</div>
 			</div><!--COL-SM-1-->
-			<div class="col-sm"><!--COL-SM-2-->
+			<div class="col-sm twee"><!--COL-SM-2-->
 				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+				<img src="/wp-content/themes/designdew/dist/images/Webshop.svg" alt="">
 				</div>
 				<h5>Webshops</h5>
 				<div class="subtext">
@@ -38,9 +38,9 @@
 					<a src="#">Kom meer te weten</a>
 				</div>
 			</div><!--COL-SM-2-->
-			<div class="col-sm"><!--COL-SM-3-->
+			<div class="col-sm drie"><!--COL-SM-3-->
 			<div class="avatar">
-			<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+			<img src="/wp-content/themes/designdew/dist/images/SEA-SEO.svg" alt="">
 			</div>
 				<h5>SEO/SEA</h5>
 				<div class="subtext">
