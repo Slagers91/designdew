@@ -53,7 +53,7 @@
 </section><!--ONZE-DIENSTEN-->
 
 <!-------------------- RECENTE PROJECTEN -------------------->
-	<section class="projecten"><!--PROJECTEN-->
+	<section id="projecten" class="projecten"><!--PROJECTEN-->
   		<div class="container"><!--CONTAINER-->
     		<div class="grid"><!--GRID-->
 				<div class="row"><!--ROW-->
@@ -183,7 +183,7 @@
 </section><!--STATISTIEKEN-->
 
 <!-------------------- ONZE WERKWIJZE -------------------->
-<section class="werkwijze"><!--WERKWIJZE-->
+<section id="werkwijze" class="werkwijze"><!--WERKWIJZE-->
 	<div class="container"><!--CONTAINER-->
 	<h2>Onze werkwijze</h2>
 	<div class="row"><!--ROW-->

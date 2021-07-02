@@ -1,3 +1,7 @@
+:root {
+	scroll-behavior: smooth;
+  }
+
 #masthead {
   display: flex;
   justify-content: space-between;
@@ -167,3 +171,4 @@
 .main-navigation li:nth-child(1) {
 	padding: 0 15px 0 0;
 }
+
