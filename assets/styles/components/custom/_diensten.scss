@@ -5,11 +5,6 @@
 .onze-diensten .container {
     padding-left: 2em;
     padding-right: 2em;
-    
-    @include breakpoint(md){
-		padding-left: unset;
-        padding-right: unset;
-	}
 }
 
 .onze-diensten .subtext {

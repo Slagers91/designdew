@@ -23,24 +23,22 @@
     padding: 0 0 4rem 0;
   }
   
-  .projecten .img-container {
-    width: 100%;
-    height: 400px;
-    cursor: pointer;
-    overflow: hidden;
-  }
   .projecten .img-container:hover .img-content-hover {
     display: block;
   }
   
   .projecten img {
     width: 100%;
-    height: 400px;
+    height: 250px;
     border-radius: 10px;
     -o-object-fit: cover;
        object-fit: cover;
     transform: scale(1);
     transition: all 0.3s ease-in-out;
+
+    @include breakpoint(md){
+      height: 400px;
+    }
   }
   .projecten img:hover {
     transform: scale(1.05);
@@ -86,6 +84,7 @@
   
     .projecten .img-container {
       height: 100%;
+      
     }
     .projecten .img-container:hover .img-content-hover {
       display: none;
@@ -95,4 +94,15 @@
       display: block;
       padding: 1rem 0;
     }
+  }
+
+  .projecten .img-container {
+    width: 100%;
+    height: 250px;
+    cursor: pointer;
+    overflow: hidden;
+
+      @include breakpoint(md){
+        height: 400px;
+      }
   }
