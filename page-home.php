@@ -253,41 +253,49 @@
 			<h2>Onze klantervaringen</h2>
 			<p>Laat de klanten voor ons spreken.</p>
 		</div><!--INTRO-->
-		<div class="row"><!--ROW-->
-			<div class="col-sm"><!--COL-SM-1-->
+			<div class="row"><!--ROW-->
+				<div class="owl-carousel owl-theme">
+				<div class="item">
+					<div class="col-sm"><!--COL-SM-1-->
+						<div class="box">
+							<h5>"Fijne samenwerking"</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+						</div>
+						<div class="avatar">
+						<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+						</div>
+						<h4>Karlijn Franken</h4>
+						<p>Medeoprichtster - Los Pinos</p>
+					</div><!--COL-SM-1-->
+				</div>
+				<div class="item">
+				<div class="col-sm"><!--COL-SM-2-->
 				<div class="box">
-					<h5>"Fijne samenwerking"</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+						<h5>"Computermannen"</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+					</div>
+					<div class="avatar">
+					<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+					</div>
+					<h4>Pieter Burgers</h4>
+					<p>Oprichter - Allround Taxaties</p>
+				</div><!--COL-SM-2-->
 				</div>
-				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
-				</div>
-				<h4>Karlijn Franken</h4>
-				<p>Medeoprichtster - Los Pinos</p>
-			</div><!--COL-SM-1-->
-			<div class="col-sm"><!--COL-SM-2-->
-			<div class="box">
-					<h5>"Computermannen"</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
-				</div>
-				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
-				</div>
-				<h4>Pieter Burgers</h4>
-				<p>Oprichter - Allround Taxaties</p>
-			</div><!--COL-SM-2-->
-			<div class="col-sm"><!--COL-SM-3-->
-			<div class="box">
-					<h5>"Wauw goed gemaakt"</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
-				</div>
-				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
-				</div>
-				<h4>Merlijn Romano</h4>
-				<p>Oprichtster - Mea-Interieurs</p>
-			</div><!--COL-SM-3-->
-		</div><!--ROW-->
+				<div class="item">
+				<div class="col-sm"><!--COL-SM-3-->
+				<div class="box">
+						<h5>"Wauw goed gemaakt"</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+					</div>
+					<div class="avatar">
+					<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+					</div>
+					<h4>Merlijn Romano</h4>
+					<p>Oprichtster - Mea-Interieurs</p>
+				</div><!--COL-SM-3-->
+				<div>
+			</div><!--ROW-->
+		</div>
 	</div><!--CONTAINER-->
 </section><!--ONZE-KLANTENERVARINGEN-->
 
