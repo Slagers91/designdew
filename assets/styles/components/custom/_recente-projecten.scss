@@ -1,6 +1,9 @@
 .projecten {
     padding: 1em;
     @include breakpoint(md){
+      padding: 0;
+    }
+    @include breakpoint(lg){
       padding: 3em;
     }
 }
@@ -40,6 +43,9 @@
     transition: all 0.3s ease-in-out;
 
     @include breakpoint(md){
+      height: 250px;
+    }
+    @include breakpoint(lg){
       height: 400px;
     }
   }
@@ -106,6 +112,9 @@
     overflow: hidden;
 
       @include breakpoint(md){
+        height: 250px;
+      }
+      @include breakpoint(lg){
         height: 400px;
       }
   }
