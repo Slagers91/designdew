@@ -1,10 +1,14 @@
 .statistieken {
-	background-color: $color__brand__turquoise;
-	background-image: url(/wp-content/themes/designdew/dist/images/Patterns.svg);
-	background-repeat: no-repeat;
-	background-size: 100%;
-	color: white;
-	padding: 3em 0;
+	display: none;
+	@include breakpoint(md){
+		display: block;
+        background-color: $color__brand__turquoise;
+		background-image: url(/wp-content/themes/designdew/dist/images/Patterns.svg);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		color: white;
+		padding: 3em 0;
+      }
 }
 
 .statistieken .sub-text {
@@ -17,10 +21,6 @@
 
 .statistieken p {
 	text-align: center;
-}
-
-.statistieken .row .col-sm {
-	// height: 300px;
 }
 
 .statistieken .row .col-sm::before {

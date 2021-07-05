@@ -1,5 +1,8 @@
 .projecten {
-    padding: 3em;
+    padding: 1em;
+    @include breakpoint(md){
+      padding: 3em;
+    }
 }
 
 .projecten .twee {
@@ -7,7 +10,11 @@
 }
 
 .projecten h5 {
-    margin-top: 10px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+    @include breakpoint(md){
+      padding-bottom: 0;
+    }
 }
 
 .projecten .subtitel {
@@ -18,10 +25,6 @@
     overflow-y: scroll;
     scroll-behavior: smooth;
 }
-  
-  .projecten {
-    padding: 0 0 4rem 0;
-  }
   
   .projecten .img-container:hover .img-content-hover {
     display: block;

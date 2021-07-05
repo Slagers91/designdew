@@ -18,10 +18,10 @@
 			<div class="col-sm">
 			<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
 			</div>
-			<div class="col-sm">
+			<div class="col-sm menu">
 			<?php dynamic_sidebar( 'second-footer-widget-area' ); ?>
 			</div>
-			<div class="col-sm">
+			<div class="col-sm portfolio">
 			<?php dynamic_sidebar( 'third-footer-widget-area' ); ?>
 			</div>
 			<div class="col-sm">
@@ -32,7 +32,7 @@
 		<div class="col-sm">
 		&copy; 2017 - <?php echo date("Y"); ?>  designdew
 			</div>
-			<div class="col-sm">
+			<div class="col-sm disclaimer">
 			<?php
 			wp_nav_menu(
 				array(

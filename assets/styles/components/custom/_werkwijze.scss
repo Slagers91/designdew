@@ -1,12 +1,21 @@
 .werkwijze {
-    padding: 3em;
+    padding: 0;
+    @include breakpoint(md){
+        padding: 3em;
+      }
 }
 
 .ronde-lijn {
     width: 100%;
     margin: 0 auto;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    flex-direction: column;
+    @include breakpoint(md){
+        display: flex;
+        align-items: center;
+        flex-direction: initial;
+      }
 }
 
 .werkwijze .ronde {
@@ -22,5 +31,36 @@
     border: 1px dashed #2EC5CE;
     opacity: 0.4;
     display: inline-flex;
-    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    @include breakpoint(md){
+        width: 150px;
+        height: 0;
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 0;
+      }
+}
+
+#werkwijze > div > div > div:nth-child(4) > div > div.lijn {
+    @include breakpoint(md){
+        display: none;
+    }
+}
+.werkwijze h6 {
+    margin-top: -135px;
+    margin-left: 40px;
+    @include breakpoint(md){
+        margin-top: 20px;
+    }
+}
+
+.werkwijze p.sub-text {
+    margin-top: -35px;
+    margin-left: 40px;
+    @include breakpoint(md){
+        padding-right: 20px;
+      }
 }

@@ -4,7 +4,10 @@
 
 .klantervaringen {
     background-color: #F4F5F7;
-    padding: 3em;
+    padding: 1em;
+    @include breakpoint(md){
+      padding: 3em;
+    }
 }
 
 .klantervaringen h4 {

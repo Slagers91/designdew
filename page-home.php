@@ -19,8 +19,8 @@
 		<h2>Onze Diensten</h2>
 		<div class="row"><!--ROW-->
 			<div class="col-sm een"><!--COL-SM-1-->
-				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/website.svg" alt="">
+				<div class="avatar website">
+				<img src="/wp-content/themes/designdew/dist/images/website-dd.svg" alt="">
 				</div>
 				<h5>Websites</h5>
 				<div class="subtext">
@@ -29,8 +29,8 @@
 				</div>
 			</div><!--COL-SM-1-->
 			<div class="col-sm twee"><!--COL-SM-2-->
-				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/Webshop.svg" alt="">
+				<div class="avatar webshop">
+				<img src="/wp-content/themes/designdew/dist/images/shop-dd_1.svg" alt="">
 				</div>
 				<h5>Webshops</h5>
 				<div class="subtext">
@@ -39,8 +39,8 @@
 				</div>
 			</div><!--COL-SM-2-->
 			<div class="col-sm drie"><!--COL-SM-3-->
-			<div class="avatar">
-			<img src="/wp-content/themes/designdew/dist/images/SEA-SEO.svg" alt="">
+			<div class="avatar seo">
+			<img src="/wp-content/themes/designdew/dist/images/seo-dd.svg" alt="">
 			</div>
 				<h5>SEO/SEA</h5>
 				<div class="subtext">
@@ -115,7 +115,7 @@
 <section id="over-ons" class="over-ons"><!--OVER ONS-->
 	<div class="container"><!--CONTAINER-->
 		<div class="row"><!--ROW-->
-			<div class="col-sm"><!--COL-SM-1-->
+			<div class="col-sm fotos"><!--COL-SM-1-->
 				<div class="top">
 					<div class="afbeelding-1">
 						<img src="/wp-content/themes/designdew/dist/images/Over-ons-linksboven.png" alt="">
@@ -133,7 +133,7 @@
 					</div>
 				</div>
 			</div><!--COL-SM-1-->
-			<div class="col-sm"><!--COL-SM-2-->
+			<div class="col-sm voorstellen"><!--COL-SM-2-->
 				<h2>Over ons</h2>
 				<div class="avatar">
 				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
@@ -215,7 +215,11 @@
 				<p class="sub-text">Design goedgekeurd? Dan gaan wij het omzetten naar een werkend product.</p>
 			</div><!--COL-SM-3-->
 			<div class="col-sm"><!--COL-SM-4-->
-			<div class="ronde"></div>
+			<div class="ronde-lijn">
+				<div class="ronde">
+				</div>
+				<div class="lijn"></div>
+				</div>
 			<h6>Live</h6>
 				<p class="sub-text">Na de feedback rondes helemaal tevreden? Dan gaan we de website live zetten.</p>
 			</div><!--COL-SM-4-->
