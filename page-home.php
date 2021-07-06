@@ -58,6 +58,8 @@
     		<div class="grid"><!--GRID-->
 				<div class="row"><!--ROW-->
 					<h2>Recente projecten</h2>
+					<div class="owl-project owl-carousel owl-theme">
+					<div class="item">	
       				<div class="col-sm"><!--COL-SM-1-->
         				<figure class="img-container">
 						<img src="/wp-content/themes/designdew/dist/images/Mea-Interieurs-Webshop-Project.png" alt="">
@@ -70,6 +72,8 @@
 							<p>Webshop</p>
 						</div>
       				</div><!--COL-SM-1-->
+</div>
+<div class="item">
       				<div class="col-sm"><!--COL-SM-2-->
         				<figure class="img-container">
 						<img src="/wp-content/themes/designdew/dist/images/Allround-Taxaties-Website-Project.png" alt="">
@@ -81,8 +85,10 @@
 						<div class="subtitel">
 						<p>Website</p>
 					</div><!--COL-SM-2-->
-      			</div><!--ROW-->
-				  <div class="row"><!--ROW-->
+</div>
+					</div>
+      			 </div><!--ROW-->
+				  <div class="row twee"><!--ROW-->
       				<div class="col-sm"><!--COL-SM-3-->
         				<figure class="img-container">
 						<img src="/wp-content/themes/designdew/dist/images/Mea-Interieurs-Webshop-Project.png" alt="">
@@ -253,41 +259,49 @@
 			<h2>Onze klantervaringen</h2>
 			<p>Laat de klanten voor ons spreken.</p>
 		</div><!--INTRO-->
-		<div class="row"><!--ROW-->
-			<div class="col-sm"><!--COL-SM-1-->
+			<div class="row"><!--ROW-->
+				<div class="owl-klanten owl-carousel owl-theme">
+				<div class="item">
+					<div class="col-sm"><!--COL-SM-1-->
+						<div class="box">
+							<h5>"Fijne samenwerking"</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+						</div>
+						<div class="avatar">
+						<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+						</div>
+						<h4>Karlijn Franken</h4>
+						<p>Medeoprichtster - Los Pinos</p>
+					</div><!--COL-SM-1-->
+				</div>
+				<div class="item">
+				<div class="col-sm"><!--COL-SM-2-->
 				<div class="box">
-					<h5>"Fijne samenwerking"</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+						<h5>"Computermannen"</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+					</div>
+					<div class="avatar">
+					<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+					</div>
+					<h4>Pieter Burgers</h4>
+					<p>Oprichter - Allround Taxaties</p>
+				</div><!--COL-SM-2-->
 				</div>
-				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
-				</div>
-				<h4>Karlijn Franken</h4>
-				<p>Medeoprichtster - Los Pinos</p>
-			</div><!--COL-SM-1-->
-			<div class="col-sm"><!--COL-SM-2-->
-			<div class="box">
-					<h5>"Computermannen"</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
-				</div>
-				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
-				</div>
-				<h4>Pieter Burgers</h4>
-				<p>Oprichter - Allround Taxaties</p>
-			</div><!--COL-SM-2-->
-			<div class="col-sm"><!--COL-SM-3-->
-			<div class="box">
-					<h5>"Wauw goed gemaakt"</h5>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
-				</div>
-				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
-				</div>
-				<h4>Merlijn Romano</h4>
-				<p>Oprichtster - Mea-Interieurs</p>
-			</div><!--COL-SM-3-->
-		</div><!--ROW-->
+				<div class="item">
+				<div class="col-sm"><!--COL-SM-3-->
+				<div class="box">
+						<h5>"Wauw goed gemaakt"</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+					</div>
+					<div class="avatar">
+					<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+					</div>
+					<h4>Merlijn Romano</h4>
+					<p>Oprichtster - Mea-Interieurs</p>
+				</div><!--COL-SM-3-->
+				<div>
+			</div><!--ROW-->
+		</div>
 	</div><!--CONTAINER-->
 </section><!--ONZE-KLANTENERVARINGEN-->
 
