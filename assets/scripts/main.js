@@ -12,8 +12,3 @@ function showImgContent(e) {
 };
 
 document.addEventListener('mousemove', showImgContent);
-
-
-$(document).ready(function(){
-  $(".owl-carousel").owlCarousel();
-});

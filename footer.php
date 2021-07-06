@@ -15,7 +15,7 @@
 
 	<div class="container">
 		<div class="row">
-			<div class="col-sm">
+			<div class="col-sm dd">
 			<?php dynamic_sidebar( 'first-footer-widget-area' ); ?>
 			</div>
 			<div class="col-sm menu">
