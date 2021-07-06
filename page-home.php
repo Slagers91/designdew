@@ -58,6 +58,8 @@
     		<div class="grid"><!--GRID-->
 				<div class="row"><!--ROW-->
 					<h2>Recente projecten</h2>
+					<div class="owl-project owl-carousel owl-theme">
+					<div class="item">	
       				<div class="col-sm"><!--COL-SM-1-->
         				<figure class="img-container">
 						<img src="/wp-content/themes/designdew/dist/images/Mea-Interieurs-Webshop-Project.png" alt="">
@@ -70,6 +72,8 @@
 							<p>Webshop</p>
 						</div>
       				</div><!--COL-SM-1-->
+</div>
+<div class="item">
       				<div class="col-sm"><!--COL-SM-2-->
         				<figure class="img-container">
 						<img src="/wp-content/themes/designdew/dist/images/Allround-Taxaties-Website-Project.png" alt="">
@@ -81,8 +85,10 @@
 						<div class="subtitel">
 						<p>Website</p>
 					</div><!--COL-SM-2-->
-      			</div><!--ROW-->
-				  <div class="row"><!--ROW-->
+</div>
+					</div>
+      			 </div><!--ROW-->
+				  <div class="row twee"><!--ROW-->
       				<div class="col-sm"><!--COL-SM-3-->
         				<figure class="img-container">
 						<img src="/wp-content/themes/designdew/dist/images/Mea-Interieurs-Webshop-Project.png" alt="">
@@ -254,7 +260,7 @@
 			<p>Laat de klanten voor ons spreken.</p>
 		</div><!--INTRO-->
 			<div class="row"><!--ROW-->
-				<div class="owl-carousel owl-theme">
+				<div class="owl-klanten owl-carousel owl-theme">
 				<div class="item">
 					<div class="col-sm"><!--COL-SM-1-->
 						<div class="box">

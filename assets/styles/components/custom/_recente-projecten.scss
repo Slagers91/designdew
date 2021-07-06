@@ -12,6 +12,16 @@
     margin-top: 30px;
 }
 
+.row.twee {
+  display: none;
+  @include breakpoint(md){
+    display: none;
+  }
+  @include breakpoint(lg){
+    display: flex;
+  }
+}
+
 .projecten h5 {
   margin-top: 10px;
   padding-bottom: 10px;
@@ -118,3 +128,13 @@
         height: 400px;
       }
   }
+
+  .projecten .item {
+    padding-right: 0;
+    @include breakpoint(md){
+      padding-right: 25px;
+    }
+    @include breakpoint(lg){
+      padding-right: 25px;
+    }
+}
