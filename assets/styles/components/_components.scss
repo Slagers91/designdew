@@ -26,13 +26,17 @@
 --------------------------------------------- */
 @import "media/galleries";
 
-/* Galleries
+/* Homepage
 --------------------------------------------- */
-@import "custom/hero";
-@import "custom/statistieken";
-@import "custom/blog";
-@import "custom/diensten";
-@import "custom/recente-projecten";
-@import "custom/werkwijze";
-@import "custom/testimonials";
-@import "custom/over-ons";
+@import "custom/homepage/hero";
+@import "custom/homepage/statistieken";
+@import "custom/homepage/blog";
+@import "custom/homepage/diensten";
+@import "custom/homepage/recente-projecten";
+@import "custom/homepage/werkwijze";
+@import "custom/homepage/testimonials";
+@import "custom/homepage/over-ons";
+
+/* Projecten
+--------------------------------------------- */
+@import "custom/projecten/projecten.scss";
