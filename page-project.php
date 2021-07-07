@@ -4,19 +4,50 @@
 <!------------------------ HERO ------------------------->
 <section class="top"><!--TOP-->
 	<div class="container"><!--CONTAINER-->
-		<div class="featured-img"><!--featured-img-->
-			<img src="/wp-content/themes/designdew/dist/images/cover-project.png" alt="">
-		</div><!--featured-img-->
-		<div class="row"><!--ROW-->
-			<div class="col-sm project"><!--COL-SM-1-->
-				<h3>Project title</h3>
-				<h6>The tagline about the project goes here</h6>
-				<a src="#">Bekijk website</a>
-			</div>
-			<div class="col-sm uitleg"><!--COL-SM-2-->
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate.</p>
-				<a src="#">Bekijk website</a>
-			</div>
+		<?php
+						$args = array(
+								'post_type' => 'post', // This is the name of your post type - change this as required,
+								'posts_per_page' => 1, // This is the amount of posts per page you want to show
+								'category_name' => 'project'
+            		);
+
+					$post_query = new WP_Query($args);
+					if($post_query->have_posts() ) { ?>
+
+					<?php
+					while($post_query->have_posts() ) {
+						$post_query->the_post();
+                    ?>
+                        <!-- <div class="news-item"> -->
+						<div class="featured-img"><!--featured-img-->
+                            <?php the_post_thumbnail('full'); ?>
+						</div>
+						<div class="row"><!--ROW-->
+						<div class="col-sm project"><!--COL-SM-1-->
+                            <div class="bericht">
+                                <?php //the_excerpt(); ?>
+                            </div>
+								<h3>Project title</h3>
+								<h6>The tagline about the project goes here</h6>
+								<a src="#">Bekijk website</a>
+							</div>
+							<div class="col-sm uitleg"><!--COL-SM-2-->
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Condimentum diam orci pretium a pharetra, feugiat cursus. Dictumst risus, sem egestas odio cras adipiscing vulputate.</p>
+								<a src="#">Bekijk website</a>
+							</div>
+						</div><!--COL-SM-1-->
+						</div>
+                        <!-- </div> -->
+                    </div>
+                    <?php
+
+                    } ?>
+
+                	</div>
+							<?php
+							}
+							wp_reset_query();
+					?>
 		</div>
 	</div><!--CONTAINER-->
 </section><!--HERO-->

@@ -41,10 +41,13 @@
 
 .review .col-sm.review {
     display: flex;
-	flex-direction: row;
+	flex-direction: column-reverse;
     flex-wrap: nowrap;
     align-items: center;
 	margin: 5em 0;
+	@include breakpoint(md){
+		flex-direction: row;
+	  }
 }
 
 .review .avatar {
@@ -55,10 +58,19 @@
 
 .review h4 {
 	margin-bottom: -1em;
+	text-align: center;
+	@include breakpoint(md){
+		text-align: initial;
+	  }
 }
 
 .review .klantreview {
-    padding-left: 7em;
+    padding-left: 0;
+	text-align: center;
+	@include breakpoint(md){
+		padding-left: 7em;
+		text-align: initial;
+	  }
 }
 
 .features {
