@@ -56,38 +56,52 @@
 	<section id="projecten" class="projecten"><!--PROJECTEN-->
   		<div class="container"><!--CONTAINER-->
     		<div class="grid"><!--GRID-->
-				<div class="row"><!--ROW-->
-					<h2>Recente projecten</h2>
+			<div class="row"><!--ROW-->
+					<h2>Bekijk andere projecten</h2>
 					<div class="owl-project owl-carousel owl-theme">
-					<div class="item">	
-      				<div class="col-sm"><!--COL-SM-1-->
-        				<figure class="img-container">
-						<img src="/wp-content/themes/designdew/dist/images/Mea-Interieurs-Webshop-Project.png" alt="">
-          				<span class="img-content-hover">
-            			<h2 class="title">Bekijk het project</h2>
-          				</span>
-        				</figure>
-						<h5>Mea Interieurs</h5>
-						<div class="subtitel">
-							<p>Webshop</p>
+					
+					<?php
+						$args = array(
+								'post_type' => 'post', // This is the name of your post type - change this as required,
+								'posts_per_page' => -1, // This is the amount of posts per page you want to show
+								'category_name' => 'portfolio'
+            		);
+
+					$post_query = new WP_Query($args);
+					if($post_query->have_posts() ) { ?>
+						<div class="nieuws-uitgelicht">
+
+					<?php
+					while($post_query->have_posts() ) {
+						$post_query->the_post();
+                    ?>
+                    <div class="item">
+					<div class="col-sm"><!--COL-SM-1-->	
+                        <!-- <div class="news-item"> -->
+						<figure class="img-container">
+                            <?php the_post_thumbnail('large'); ?>
+						</figure>
+                            <div class="bericht">
+                                <?php //the_excerpt(); ?>
+                            </div>
+							<h5>Mea Interieurs</h5>
+							<div class="subtitel">
+								<p>Webshop</p>
+							</div>
+						</div><!--COL-SM-1-->
 						</div>
-      				</div><!--COL-SM-1-->
-</div>
-<div class="item">
-      				<div class="col-sm"><!--COL-SM-2-->
-        				<figure class="img-container">
-						<img src="/wp-content/themes/designdew/dist/images/Allround-Taxaties-Website-Project.png" alt="">
-          				<span class="img-content-hover">
-		  				<h2 class="title">Bekijk het project</h2>
-          				</span>
-        				</figure>
-						<h5>Allround Taxaties</h5>
-						<div class="subtitel">
-						<p>Website</p>
-					</div><!--COL-SM-2-->
-</div>
-					</div>
-      			 </div><!--ROW-->
+                        <!-- </div> -->
+                    </div>
+                    <?php
+
+                    } ?>
+
+                	</div>
+							<?php
+							}
+							wp_reset_query();
+					?>
+				</div><!--ROW-->
 				  <div class="row twee"><!--ROW-->
       				<div class="col-sm"><!--COL-SM-3-->
         				<figure class="img-container">
