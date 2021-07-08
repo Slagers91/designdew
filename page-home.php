@@ -109,38 +109,38 @@
 			<div class="col-sm fotos"><!--COL-SM-1-->
 				<div class="top">
 					<div class="afbeelding-1">
-						<img src="/wp-content/themes/designdew/dist/images/Over-ons-linksboven.png" alt="">
+						<img src="<?php the_field('over_ons_afb1_linksboven') ?>" alt="">
 					</div>
 					<div class="afbeelding-2">
-						<img src="/wp-content/themes/designdew/dist/images/Over-ons-rechtsboven.png" alt="">
+						<img src="<?php the_field('over_ons_afb2_rechtsboven') ?>" alt="">
 					</div>
 				</div>
 				<div class="bottom">
 					<div class="afbeelding-3">
-						<img src="/wp-content/themes/designdew/dist/images/Over-ons-linksonder.png" alt="">
+						<img src="<?php the_field('over_ons_afb3_linksonder') ?>" alt="">
 					</div>
 					<div class="afbeelding-4">
-						<img src="/wp-content/themes/designdew/dist/images/Over-ons-rechtsonder.png" alt="">
+						<img src="<?php the_field('over_ons_afb4_rechtsonder') ?>" alt="">
 					</div>
 				</div>
 			</div><!--COL-SM-1-->
 			<div class="col-sm voorstellen"><!--COL-SM-2-->
-				<h2>Over ons</h2>
+				<h2><?php the_field('over_ons_titel') ?></h2>
 				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+				<img src="<?php the_field('over_ons_persoon_1_avatar') ?>" alt="">
 				</div>
-				<h5>Amin Pašalić</h5>
+				<h5><?php the_field('over_ons_persoon_1_naam') ?></h5>
 				<div class="subtext">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
-					<a src="#">LinkedIn</a>
+					<p><?php the_field('over_ons_persoon_1_samenvatting') ?></p>
+					<a src="#"><?php the_field('over_ons_persoon_1_link') ?></a>
 				</div>
 				<div class="avatar">
-				<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+				<img src="<?php the_field('over_ons_persoon_2_avatar') ?>" alt="">
 				</div>
-				<h5>Ruud Slagers</h5>
+				<h5><?php the_field('over_ons_persoon_2_naam') ?></h5>
 				<div class="subtext">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.</p>
-					<a src="#">LinkedIn</a>
+					<p><?php the_field('over_ons_persoon_2_samenvatting') ?></p>
+					<a src="#"><?php the_field('over_ons_persoon_2_link') ?></a>
 				</div>
 			</div><!--COL-SM-2-->
 		</div><!--ROW-->
