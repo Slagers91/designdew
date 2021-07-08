@@ -4,8 +4,8 @@
 <!------------------------ HERO ------------------------->
 <section class="hero"><!--HERO-->
 	<div class="container"><!--CONTAINER-->
-		<h1>Brengt ideeën tot leven en laat ze groeien op het web.</h1>
-		<button onclick="location.href='#projecten'" type="button">Bekijk projecten</button>
+		<h1><?php the_field('hero'); ?></h1>
+		<button onclick="location.href='#projecten'" type="button"><?php the_field('hero-knop'); ?></button>
 
 		<div class="hero-img"><!--HERO-IMG-->
 			<img src="<?php THEMEDIR; ?>/wp-content/themes/designdew/dist/images/iPhone X.png" alt="">
@@ -16,36 +16,36 @@
 <!-------------------- ONZE DIENSTEN -------------------->
 <section class="onze-diensten"><!--ONZE-DIENSTEN-->
 	<div class="container"><!--CONTAINER-->
-		<h2>Onze Diensten</h2>
+		<h2><?php the_field('diensten_titel'); ?></h2>
 		<div class="row"><!--ROW-->
 			<div class="col-sm een"><!--COL-SM-1-->
 				<div class="avatar website">
-				<img src="/wp-content/themes/designdew/dist/images/website-dd.svg" alt="">
+					<img src="<?php the_field('diensten_column_1_afbeelding') ?>" alt="" srcset="">
 				</div>
-				<h5>Websites</h5>
+				<h5><?php the_field('diensten_column_1_titel'); ?></h5>
 				<div class="subtext">
-					<p>Wij ontwerpen en bouwen goed uitziende en prettig werkende websites die bijdragen aan zakelijk succes. Centraal hierbij staan het doel, de uitstraling en de boodschap van jouw organisatie.</p>
-					<a src="#">Kom meer te weten</a>
+					<p><?php the_field('diensten_column_1_samenvatting'); ?></p>
+					<a src="<?php the_field('diensten_column_1_url'); ?>"><?php the_field('diensten_column_2_link'); ?></a>
 				</div>
 			</div><!--COL-SM-1-->
 			<div class="col-sm twee"><!--COL-SM-2-->
 				<div class="avatar webshop">
-				<img src="/wp-content/themes/designdew/dist/images/shop-dd_1.svg" alt="">
+				<img src="<?php the_field('diensten_column_2_afbeelding') ?>" alt="" srcset="">
 				</div>
-				<h5>Webshops</h5>
+				<h5><?php the_field('diensten_column_2_titel'); ?></h5>
 				<div class="subtext">
-					<p>Wij ontwerpen aantrekkelijke webshops. De vormgeving ervan wekt vertrouwen en is inspirerend; de manier van navigeren is juist simpel. Zo helpen we jouw bezoekers om snel en eenvoudig de juiste informatie te vinden en neemt de kans op een bestelling toe.</p>
-					<a src="#">Kom meer te weten</a>
+				<p><?php the_field('diensten_column_2_samenvatting'); ?></p>
+					<a src="<?php the_field('diensten_column_2_url'); ?>"><?php the_field('diensten_column_2_link'); ?></a>
 				</div>
 			</div><!--COL-SM-2-->
 			<div class="col-sm drie"><!--COL-SM-3-->
 			<div class="avatar seo">
-			<img src="/wp-content/themes/designdew/dist/images/seo-dd.svg" alt="">
+			<img src="<?php the_field('diensten_column_3_afbeelding') ?>" alt="" srcset="">
 			</div>
-				<h5>SEO/SEA</h5>
+			<h5><?php the_field('diensten_column_3_titel'); ?></h5>
 				<div class="subtext">
-					<p>Zoekmachineoptimalisatie (SEO) is een doorlopend proces, want er zijn altijd nieuwe potentiële kansen en veranderingen in de markt. Met een op maat gemaakte SEO strategie brengen wij jouw website naar organische topposities.</p>
-					<a src="#">Kom meer te weten</a>
+				<p><?php the_field('diensten_column_3_samenvatting'); ?></p>
+					<a src="<?php the_field('diensten_column_3_url'); ?>"><?php the_field('diensten_column_3_link'); ?></a>
 				</div>
 			</div><!--COL-SM-3-->
 		</div><!--ROW-->
@@ -57,7 +57,7 @@
   		<div class="container"><!--CONTAINER-->
     		<div class="grid"><!--GRID-->
 			<div class="row"><!--ROW-->
-					<h2>Bekijk andere projecten</h2>
+					<h2><?php the_field('projecten_titel'); ?></h2>
 					<div class="owl-project owl-carousel owl-theme">
 					
 					<?php
@@ -69,29 +69,26 @@
 
 					$post_query = new WP_Query($args);
 					if($post_query->have_posts() ) { ?>
-						<div class="nieuws-uitgelicht">
 
 					<?php
 					while($post_query->have_posts() ) {
 						$post_query->the_post();
                     ?>
-                    <div class="item">
-					<div class="col-sm"><!--COL-SM-1-->	
-                        <!-- <div class="news-item"> -->
-						<figure class="img-container">
-                            <?php the_post_thumbnail('large'); ?>
-						</figure>
-                            <div class="bericht">
-                                <?php //the_excerpt(); ?>
-                            </div>
-							<h5>Mea Interieurs</h5>
-							<div class="subtitel">
-								<p>Webshop</p>
-							</div>
+                    <div class="item"><!--ITEM-->	
+						<div class="col-sm"><!--COL-SM-1-->	
+							<!-- <div class="news-item"> -->
+							<figure class="img-container">
+								<?php the_post_thumbnail('large'); ?>
+							</figure>
+								<div class="bericht">
+									<?php //the_excerpt(); ?>
+								</div>
+								<h5><?php the_field('website_naam') ?></h5>
+								<div class="subtitel">
+									<p><?php the_field('soort_opdracht') ?></p>
+								</div>
 						</div><!--COL-SM-1-->
-						</div>
-                        <!-- </div> -->
-                    </div>
+                    </div><!--ITEM-->	
                     <?php
 
                     } ?>
@@ -101,32 +98,6 @@
 							}
 							wp_reset_query();
 					?>
-				</div><!--ROW-->
-				  <div class="row twee"><!--ROW-->
-      				<div class="col-sm"><!--COL-SM-3-->
-        				<figure class="img-container">
-						<img src="/wp-content/themes/designdew/dist/images/Mea-Interieurs-Webshop-Project.png" alt="">
-          				<span class="img-content-hover">
-            			<h2 class="title">Bekijk het project</h2>
-          				</span>
-        				</figure>
-						<h5>Mea Interieurs</h5>
-						<div class="subtitel">
-							<p>Webshop</p>
-						</div>
-      				</div><!--COL-SM-3-->
-      				<div class="col-sm"><!--COL-SM-4-->
-        				<figure class="img-container">
-						<img src="/wp-content/themes/designdew/dist/images/Allround-Taxaties-Website-Project.png" alt="">
-          				<span class="img-content-hover">
-		  				<h2 class="title">Bekijk het project</h2>
-          				</span>
-        				</figure>
-						<h5>Allround Taxaties</h5>
-						<div class="subtitel">
-						<p>Website</p>
-					</div><!--COL-SM-4-->
-      			</div><!--ROW-->
 			</div><!--GRID-->
     	</div><!--CONTAINER-->
 	</section><!--PROJECTEN-->
