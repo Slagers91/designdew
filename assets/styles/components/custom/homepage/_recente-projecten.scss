@@ -59,6 +59,11 @@
       height: 400px;
     }
   }
+
+  #page > section.blog > div > div:nth-child(2) > div > div > img {
+    border-radius: 10px;
+}
+
   .projecten img:hover {
     transform: scale(1.05);
   }
