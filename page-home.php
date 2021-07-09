@@ -176,7 +176,7 @@
 <!-------------------- ONZE WERKWIJZE -------------------->
 <section id="werkwijze" class="werkwijze"><!--WERKWIJZE-->
 	<div class="container"><!--CONTAINER-->
-	<h2>Onze werkwijze</h2>
+	<h2><?php the_field('werkwijze_titel') ?></h2>
 	<div class="row"><!--ROW-->
 			<div class="col-sm"><!--COL-SM-1-->
 				<div class="ronde-lijn">
@@ -184,8 +184,8 @@
 				</div>
 				<div class="lijn"></div>
 				</div>
-				<h6>Ontmoeting</h6>
-				<p class="sub-text">Vrijblijvend en efficiënt. Stellen samen de doelen en wensen op.</p>
+				<h6><?php the_field('werkwijze_column_1_onderwerp') ?></h6>
+				<p class="sub-text"><?php the_field('werkwijze_column_1_samenvatting') ?></p>
 			</div><!--COL-SM-1-->
 			<div class="col-sm"><!--COL-SM-2-->
 			<div class="ronde-lijn">
@@ -193,8 +193,8 @@
 				</div>
 				<div class="lijn"></div>
 				</div>
-			<h6>Design</h6>
-				<p class="sub-text">Wij gaan aan de slag om een passend ontwerp te maken. </p>
+			<h6><?php the_field('werkwijze_column_2_onderwerp') ?></h6>
+				<p class="sub-text"><?php the_field('werkwijze_column_2_samenvatting') ?></p>
 			</div><!--COL-SM-2-->
 			<div class="col-sm"><!--COL-SM-3-->
 			<div class="ronde-lijn">
@@ -202,8 +202,8 @@
 				</div>
 				<div class="lijn"></div>
 				</div>
-			<h6>Development</h6>
-				<p class="sub-text">Design goedgekeurd? Dan gaan wij het omzetten naar een werkend product.</p>
+			<h6><?php the_field('werkwijze_column_3_onderwerp') ?></h6>
+				<p class="sub-text"><?php the_field('werkwijze_column_3_samenvatting') ?></p>
 			</div><!--COL-SM-3-->
 			<div class="col-sm"><!--COL-SM-4-->
 			<div class="ronde-lijn">
@@ -211,8 +211,8 @@
 				</div>
 				<div class="lijn"></div>
 				</div>
-			<h6>Live</h6>
-				<p class="sub-text">Na de feedback rondes helemaal tevreden? Dan gaan we de website live zetten.</p>
+			<h6><?php the_field('werkwijze_column_4_onderwerp') ?></h6>
+				<p class="sub-text"><?php the_field('werkwijze_column_4_samenvatting') ?></p>
 			</div><!--COL-SM-4-->
 		</div><!--ROW-->
 	</div><!--CONTAINER-->
@@ -221,68 +221,97 @@
 <!-------------------- BLOG BERICHTEN -------------------->
 <section class="blog"><!--BLOG-->
 	<div class="container"><!--CONTAINER-->
-	<div class="row"><!--ROW-1-->
-			<div class="col-sm"><!--COL-SM-1-->
-			<h2>De voordelen van een website</h2>
-			</div>
-			<div class="col-sm">
-				<p class="sub-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Venenatis scelerisque at quam congue posuere libero in sit quam. Consequat, scelerisque non tincidunt sit lectus senectus.</p>
-			</div><!--COL-SM-1-->
+		<div class="row"><!--ROW-1-->
+				<div class="col-sm"><!--COL-SM-1-->
+					<?php
+						$args = array(
+							'post_type' => 'post', // This is the name of your post type - change this as required,
+							'posts_per_page' => 1, // This is the amount of posts per page you want to show
+							'category_name' => 'blog'
+						);
+
+						$post_query = new WP_Query($args);
+						if($post_query->have_posts() ) { ?>
+
+						<?php
+							while($post_query->have_posts() ) {
+							$post_query->the_post();
+						?>
+						<!--BLOG TITEL-->
+						<h2><?php the_field('blog_titel') ?></h2>
+				</div><!--COL-SM-1-->
+
+
+				<div class="col-sm"><!--COL-SM-2-->
+					<!--BLOG SAMENVATTING-->
+					<p class="sub-text"><?php the_field('blog_samenvatting') ?></p>
+				</div><!--COL-SM-2-->
+
 		</div><!--ROW-1-->
-		<div class="row"><!--ROW-2-->
-		<div class="col-sm featured-img">
-		<img src="<?php THEMEDIR; ?>/wp-content/themes/designdew/dist/images/Cover-Voordelen-van-een-website-Blog.png" alt="">
-		</div>
-		</div><!--ROW-2-->
+
+			<div class="row"><!--ROW-2-->
+				<div class="col-sm"><!--COL-SM-2-->
+					<!--BLOG AFBEELDING-->
+					<div class="col-sm featured-img">
+						<img src="<?php the_field('blog_afbeelding') ?>" alt="">
+					</div>
+				</div>
+			</div><!--ROW-2-->
 	</div><!--CONTAINER-->
+	<?php
+						} ?>
+	<?php
+		}
+		wp_reset_query();
+	?>
 </section><!--BLOG-->
 
 <!-------------------- ONZE KLANTERVARINGEN -------------------->
 <section class="klantervaringen"><!--ONZE-KLANTERVARINGEN-->
 	<div class="container klantervaringen"><!--CONTAINER-->
 		<div class="intro"><!--INTRO-->
-			<h2>Onze klantervaringen</h2>
-			<p>Laat de klanten voor ons spreken.</p>
+			<h2><?php the_field('klantervaring_titel') ?></h2>
+			<p><?php the_field('klantervaring_subtitel') ?></p>
 		</div><!--INTRO-->
 			<div class="row"><!--ROW-->
 				<div class="owl-klanten owl-carousel owl-theme">
 				<div class="item">
 					<div class="col-sm"><!--COL-SM-1-->
 						<div class="box">
-							<h5>"Fijne samenwerking"</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+							<h5><?php the_field('klantervaring_column_1_titel_quote') ?></h5>
+							<p><?php the_field('klantervaring_column_1_samenvatting') ?></p>
 						</div>
 						<div class="avatar">
-						<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+						<img src="<?php the_field('klantervaring_1_avatar') ?>" alt="">
 						</div>
-						<h4>Karlijn Franken</h4>
-						<p>Medeoprichtster - Los Pinos</p>
+						<h4><?php the_field('klantervaring_column_1_naam') ?></h4>
+						<p><?php the_field('klantervaring_column_1_functie') ?></p>
 					</div><!--COL-SM-1-->
 				</div>
 				<div class="item">
 				<div class="col-sm"><!--COL-SM-2-->
 				<div class="box">
-						<h5>"Computermannen"</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+						<h5><?php the_field('klantervaring_column_2_titel_quote') ?></h5>
+						<p><?php the_field('klantervaring_column_2_samenvatting') ?></p>
 					</div>
 					<div class="avatar">
-					<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+					<img src="<?php the_field('klantervaring_2_avatar') ?>" alt="">
 					</div>
-					<h4>Pieter Burgers</h4>
-					<p>Oprichter - Allround Taxaties</p>
+					<h4><?php the_field('klantervaring_column_2_naam') ?></h4>
+					<p><?php the_field('klantervaring_column_2_functie') ?></p>
 				</div><!--COL-SM-2-->
 				</div>
 				<div class="item">
 				<div class="col-sm"><!--COL-SM-3-->
 				<div class="box">
-						<h5>"Wauw goed gemaakt"</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.</p>
+						<h5><?php the_field('klantervaring_column_3_titel_quote') ?></h5>
+						<p><?php the_field('klantervaring_column_3_samenvatting') ?></p>
 					</div>
 					<div class="avatar">
-					<img src="/wp-content/themes/designdew/dist/images/Ruud-Slagers.png" alt="">
+					<img src="<?php the_field('klantervaring_3_avatar') ?>" alt="">
 					</div>
-					<h4>Merlijn Romano</h4>
-					<p>Oprichtster - Mea-Interieurs</p>
+					<h4><?php the_field('klantervaring_column_3_naam') ?></h4>
+					<p><?php the_field('klantervaring_column_3_functie') ?></p>
 				</div><!--COL-SM-3-->
 				<div>
 			</div><!--ROW-->
