@@ -150,24 +150,24 @@
 <!-------------------- STATISTIEKEN -------------------->
 <section class="statistieken"><!--STATISTIEKEN-->
 	<div class="container"><!--CONTAINER-->
-		<h2>Statistieken die er toe doen</h2>
-		<p class="sub-text">Wat designdew al bereikt heeft.</p>
+		<h2><?php the_field('statistieken_titel') ?></h2>
+		<p class="sub-text"><?php the_field('statistieken_subtitel') ?></p>
 	<div class="row"><!--ROW-->
 			<div class="col-sm"><!--COL-SM-1-->
-				<h2>10+</h2>
-				<p class="sub-text">Websites/webshops</p>
+				<h2><?php the_field('statistieken_column_1_cijfer') ?></h2>
+				<p class="sub-text"><?php the_field('statistieken_column_1_onderwerp') ?></p>
 			</div><!--COL-SM-1-->
 			<div class="col-sm"><!--COL-SM-2-->
-			<h2>10+</h2>
-				<p class="sub-text">Tevreden klanten</p>
+			<h2><?php the_field('statistieken_column_2_cijfer') ?></h2>
+				<p class="sub-text"><?php the_field('statistieken_column_2_onderwerp') ?></p>
 			</div><!--COL-SM-2-->
 			<div class="col-sm"><!--COL-SM-3-->
-			<h2>4x</h2>
-				<p class="sub-text">De gehele website vernieuwd</p>
+			<h2><?php the_field('statistieken_column_3_cijfer') ?></h2>
+				<p class="sub-text"><?php the_field('statistieken_column_3_onderwerp') ?></p>
 			</div><!--COL-SM-3-->
 			<div class="col-sm"><!--COL-SM-4-->
-			<h2>3</h2>
-				<p class="sub-text">Jaar bestaan we</p>
+			<h2><?php the_field('statistieken_column_4_cijfer') ?></h2>
+				<p class="sub-text"><?php the_field('statistieken_column_4_onderwerp') ?></p>
 			</div><!--COL-SM-4-->
 		</div><!--ROW-->
 	</div><!--CONTAINER-->
