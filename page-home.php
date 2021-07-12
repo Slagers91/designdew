@@ -1,6 +1,12 @@
 <?php /* Template Name: Homepage */ ?>
 <?php get_header(); ?>
 
+<main data-barba="container" data-barba-namespace="with-cover">
+    <!-- put here the content you wish to change
+    between your pages, like your main content <h1> or <p> -->
+	<div class="transition">
+        <h2>Cover Screen</h2>
+    </div>
 <!------------------------ HERO ------------------------->
 <section class="hero"><!--HERO-->
 	<div class="container"><!--CONTAINER-->
@@ -318,6 +324,7 @@
 		</div>
 	</div><!--CONTAINER-->
 </section><!--ONZE-KLANTENERVARINGEN-->
+</main>
 
 <?php
 

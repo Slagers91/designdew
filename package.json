@@ -17,6 +17,7 @@
     "url": "https://github.com/Automattic/_s/issues"
   },
   "devDependencies": {
+    "@barba/css": "^2.1.15",
     "@wordpress/scripts": "^12.1.0",
     "browser-sync": "^2.26.14",
     "dir-archiver": "^1.1.1",

@@ -1,6 +1,9 @@
 <?php /* Template Name: Project */ ?>
 <?php get_header(); ?>
 
+<main data-barba="container" data-barba-namespace="home">
+    <!-- put here the content you wish to change
+    between your pages, like your main content <h1> or <p> -->
 <!------------------------ HERO ------------------------->
 <section class="top"><!--TOP-->
 	<div class="container"><!--CONTAINER-->
@@ -150,6 +153,7 @@
 			</div><!--GRID-->
     	</div><!--CONTAINER-->
 	</section><!--PROJECTEN-->
+	</main>
 
 
 <?php
