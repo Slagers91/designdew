@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "@barba/core": "^2.9.7",
+    "gsap": "^3.5.1",
     "@fortawesome/fontawesome-free": "^5.15.3",
     "bootstrap": "^5.0.2",
     "browser-sync-webpack-plugin": "^2.3.0",

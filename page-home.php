@@ -1,6 +1,7 @@
 <?php /* Template Name: Homepage */ ?>
 <?php get_header(); ?>
 
+<div class="wrapper" data-barba='container' data-barba-namespace='home'>
 <!------------------------ HERO ------------------------->
 <section class="hero"><!--HERO-->
 	<div class="container"><!--CONTAINER-->
@@ -318,7 +319,7 @@
 		</div>
 	</div><!--CONTAINER-->
 </section><!--ONZE-KLANTENERVARINGEN-->
-
+</div>
 <?php
 
 get_footer();
