@@ -1,0 +1,86 @@
+{
+    "key": "group_60e8383e9eda5",
+    "title": "Blog",
+    "fields": [
+        {
+            "key": "field_60e838568436f",
+            "label": "Blog Titel",
+            "name": "blog_titel",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60e8387a84370",
+            "label": "Blog Samenvatting",
+            "name": "blog_samenvatting",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60e8388e72a6a",
+            "label": "Blog Afbeelding",
+            "name": "blog_afbeelding",
+            "type": "image",
+            "instructions": "Afbeelding van widht: 1110px bij height: 400px",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "preview_size": "large",
+            "library": "all",
+            "min_width": 1100,
+            "min_height": 390,
+            "min_size": "",
+            "max_width": 1110,
+            "max_height": 400,
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_category",
+                "operator": "==",
+                "value": "category:blog"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1626342864
+}
