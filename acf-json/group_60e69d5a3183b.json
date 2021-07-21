@@ -3,6 +3,22 @@
     "title": "Homepage",
     "fields": [
         {
+            "key": "field_60f867c3d2d28",
+            "label": "Hero",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
             "key": "field_60e69d7a66110",
             "label": "Hero",
             "name": "hero",
@@ -41,6 +57,22 @@
             "maxlength": ""
         },
         {
+            "key": "field_60f867d6d2d29",
+            "label": "Diensten",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
             "key": "field_60e6a16c17196",
             "label": "Diensten Titel",
             "name": "diensten_titel",
@@ -60,10 +92,349 @@
             "maxlength": ""
         },
         {
-            "key": "field_60e6a19617197",
-            "label": "Diensten Column 1 afbeelding",
-            "name": "diensten_column_1_afbeelding",
-            "type": "image",
+            "key": "field_60f8693508f79",
+            "label": "Diensten_1",
+            "name": "diensten_1",
+            "type": "group",
+            "instructions": "Verander de H1 van diensten sectie",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_60e6a19617197",
+                    "label": "Diensten Column 1 afbeelding",
+                    "name": "diensten_column_1_afbeelding",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_60e6abe47ab78",
+                    "label": "Diensten Column 1 Titel",
+                    "name": "diensten_column_1_titel",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60e6ac017ab79",
+                    "label": "Diensten Column 1 Samenvatting",
+                    "name": "diensten_column_1_samenvatting",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60e6ac157ab7a",
+                    "label": "Diensten Column 1 Link",
+                    "name": "diensten_column_1_link",
+                    "type": "text",
+                    "instructions": "Vul hier de link tekst neer",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60e6b2bc490a8",
+                    "label": "Diensten Column 1 URL",
+                    "name": "diensten_column_1_url",
+                    "type": "link",
+                    "instructions": "Vul hier de URL van de link in",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url"
+                }
+            ]
+        },
+        {
+            "key": "field_60f86a04142c1",
+            "label": "Diensten_2",
+            "name": "diensten_2",
+            "type": "group",
+            "instructions": "Verander de H1 van diensten sectie",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_60e6b570fcd87",
+                    "label": "Diensten Column 2 afbeelding",
+                    "name": "diensten_column_2_afbeelding",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_60e6b5acfcd89",
+                    "label": "Diensten Column 2 Titel",
+                    "name": "diensten_column_2_titel",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60e6b5d2fcd8a",
+                    "label": "Diensten Column 2 Samenvatting",
+                    "name": "diensten_column_2_samenvatting",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60e6b608fcd8d",
+                    "label": "Diensten Column 2 Link",
+                    "name": "diensten_column_2_link",
+                    "type": "text",
+                    "instructions": "Vul hier de link tekst neer",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60e6b622fcd8f",
+                    "label": "Diensten Column 2 URL",
+                    "name": "diensten_column_2_url",
+                    "type": "link",
+                    "instructions": "Vul hier de URL van de link in",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url"
+                }
+            ]
+        },
+        {
+            "key": "field_60f86a22142c7",
+            "label": "Diensten_3",
+            "name": "diensten_3",
+            "type": "group",
+            "instructions": "Verander de H1 van diensten sectie",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_60e6b69bfcd91",
+                    "label": "Diensten Column 3 afbeelding",
+                    "name": "diensten_column_3_afbeelding",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_60e6b5e6fcd8b",
+                    "label": "Diensten Column 3 Titel",
+                    "name": "diensten_column_3_titel",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60e6b5f6fcd8c",
+                    "label": "Diensten Column 3 Samenvatting",
+                    "name": "diensten_column_3_samenvatting",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60e6b615fcd8e",
+                    "label": "Diensten Column 3 Link",
+                    "name": "diensten_column_3_link",
+                    "type": "text",
+                    "instructions": "Vul hier de link tekst neer",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60e6b630fcd90",
+                    "label": "Diensten Column 3 URL",
+                    "name": "diensten_column_3_url",
+                    "type": "link",
+                    "instructions": "Vul hier de URL van de link in",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url"
+                }
+            ]
+        },
+        {
+            "key": "field_60f867f5d2d2a",
+            "label": "Projecten",
+            "name": "",
+            "type": "tab",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -72,280 +443,8 @@
                 "class": "",
                 "id": ""
             },
-            "return_format": "url",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
-        },
-        {
-            "key": "field_60e6abe47ab78",
-            "label": "Diensten Column 1 Titel",
-            "name": "diensten_column_1_titel",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_60e6ac017ab79",
-            "label": "Diensten Column 1 Samenvatting",
-            "name": "diensten_column_1_samenvatting",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_60e6ac157ab7a",
-            "label": "Diensten Column 1 Link",
-            "name": "diensten_column_1_link",
-            "type": "text",
-            "instructions": "Vul hier de link tekst neer",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_60e6b2bc490a8",
-            "label": "Diensten Column 1 URL",
-            "name": "diensten_column_1_url",
-            "type": "link",
-            "instructions": "Vul hier de URL van de link in",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "url"
-        },
-        {
-            "key": "field_60e6b570fcd87",
-            "label": "Diensten Column 2 afbeelding",
-            "name": "diensten_column_2_afbeelding",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "url",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
-        },
-        {
-            "key": "field_60e6b5acfcd89",
-            "label": "Diensten Column 2 Titel",
-            "name": "diensten_column_2_titel",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_60e6b5d2fcd8a",
-            "label": "Diensten Column 2 Samenvatting",
-            "name": "diensten_column_2_samenvatting",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_60e6b608fcd8d",
-            "label": "Diensten Column 2 Link",
-            "name": "diensten_column_2_link",
-            "type": "text",
-            "instructions": "Vul hier de link tekst neer",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_60e6b622fcd8f",
-            "label": "Diensten Column 2 URL",
-            "name": "diensten_column_2_url",
-            "type": "link",
-            "instructions": "Vul hier de URL van de link in",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "url"
-        },
-        {
-            "key": "field_60e6b69bfcd91",
-            "label": "Diensten Column 3 afbeelding",
-            "name": "diensten_column_3_afbeelding",
-            "type": "image",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "url",
-            "preview_size": "medium",
-            "library": "all",
-            "min_width": "",
-            "min_height": "",
-            "min_size": "",
-            "max_width": "",
-            "max_height": "",
-            "max_size": "",
-            "mime_types": ""
-        },
-        {
-            "key": "field_60e6b5e6fcd8b",
-            "label": "Diensten Column 3 Titel",
-            "name": "diensten_column_3_titel",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_60e6b5f6fcd8c",
-            "label": "Diensten Column 3 Samenvatting",
-            "name": "diensten_column_3_samenvatting",
-            "type": "text",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_60e6b615fcd8e",
-            "label": "Diensten Column 3 Link",
-            "name": "diensten_column_3_link",
-            "type": "text",
-            "instructions": "Vul hier de link tekst neer",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
-        },
-        {
-            "key": "field_60e6b630fcd90",
-            "label": "Diensten Column 3 URL",
-            "name": "diensten_column_3_url",
-            "type": "link",
-            "instructions": "Vul hier de URL van de link in",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "return_format": "url"
+            "placement": "left",
+            "endpoint": 0
         },
         {
             "key": "field_60e6c0553a257",
@@ -365,6 +464,22 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_60f86822d2d2b",
+            "label": "Over ons",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
         },
         {
             "key": "field_60e6d20c952f6",
@@ -638,6 +753,22 @@
             "placeholder": ""
         },
         {
+            "key": "field_60f86837d2d2c",
+            "label": "Statistieken",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
             "key": "field_60e6f69af14bb",
             "label": "Statistieken Titel",
             "name": "statistieken_titel",
@@ -828,6 +959,22 @@
             "maxlength": ""
         },
         {
+            "key": "field_60f86848d2d2d",
+            "label": "Werkwijze",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
+        },
+        {
             "key": "field_60e7f1bb75387",
             "label": "Werkwijze Titel",
             "name": "werkwijze_titel",
@@ -997,6 +1144,22 @@
             "prepend": "",
             "append": "",
             "maxlength": ""
+        },
+        {
+            "key": "field_60f86867d2d2e",
+            "label": "Klantervaring",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "left",
+            "endpoint": 0
         },
         {
             "key": "field_60e7f77584a76",
@@ -1354,5 +1517,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1626342795
+    "modified": 1626893214
 }

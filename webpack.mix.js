@@ -14,7 +14,7 @@ if (!mix.inProduction()) {
             children: true,
         } });
     mix.browserSync({
-      proxy: 'localhost:10008',
+      proxy: 'http://designdew.test',
       open: false,
       notify: false,
       files: ['dist/styles/**/*.css', 'dist/scripts/**/*.js', '**/*.php'],
@@ -23,13 +23,3 @@ if (!mix.inProduction()) {
       },
     });
   }
-
-//   plugins: [
-//     new webpack.ProvidePlugin({
-//       $: 'jquery',
-//       jQuery: 'jquery',
-//       'window.jQuery': 'jquery'
-//     }),
-// ]
-
-  

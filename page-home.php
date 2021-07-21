@@ -15,38 +15,41 @@
 </section><!--HERO-->
 
 <!-------------------- ONZE DIENSTEN -------------------->
+<?php $kolom_links = get_field('diensten_1'); ?>
+<?php $kolom_midden = get_field('diensten_2'); ?>
+<?php $kolom_rechts = get_field('diensten_3'); ?>
 <section class="onze-diensten"><!--ONZE-DIENSTEN-->
 	<div class="container"><!--CONTAINER-->
-		<h2><?php the_field('diensten_titel'); ?></h2>
+		<h2><?php echo $kolom_links['diensten_titel']; ?></h2>
 		<div class="row"><!--ROW-->
 			<div class="col-sm een"><!--COL-SM-1-->
 				<div class="avatar website">
-					<img src="<?php the_field('diensten_column_1_afbeelding') ?>" alt="" srcset="">
+					<img src="<?php echo $kolom_links['diensten_column_1_afbeelding']; ?>" alt="" srcset="">
 				</div>
-				<h5><?php the_field('diensten_column_1_titel'); ?></h5>
+				<h5><?php echo $kolom_links['diensten_column_1_titel']; ?></h5>
 				<div class="subtext">
-					<p><?php the_field('diensten_column_1_samenvatting'); ?></p>
-					<a src="<?php the_field('diensten_column_1_url'); ?>"><?php the_field('diensten_column_2_link'); ?></a>
+					<p><?php echo $kolom_links['diensten_column_1_samenvatting']; ?></p>
+					<a src="<?php echo $kolom_links['diensten_column_1_url']; ?>"><?php echo $kolom_links['diensten_column_1_link']; ?></a>
 				</div>
 			</div><!--COL-SM-1-->
 			<div class="col-sm twee"><!--COL-SM-2-->
 				<div class="avatar webshop">
-				<img src="<?php the_field('diensten_column_2_afbeelding') ?>" alt="" srcset="">
+				<img src="<?php echo $kolom_midden['diensten_column_2_afbeelding']; ?>" alt="" srcset="">
 				</div>
-				<h5><?php the_field('diensten_column_2_titel'); ?></h5>
+				<h5><?php echo $kolom_midden['diensten_column_2_titel']; ?></h5>
 				<div class="subtext">
-				<p><?php the_field('diensten_column_2_samenvatting'); ?></p>
-					<a src="<?php the_field('diensten_column_2_url'); ?>"><?php the_field('diensten_column_2_link'); ?></a>
+				<p><?php echo $kolom_midden['diensten_column_2_samenvatting']; ?></p>
+					<a src="<?php echo $kolom_midden['diensten_column_2_url']; ?>"><?php echo $kolom_midden['diensten_column_2_link']; ?></a>
 				</div>
 			</div><!--COL-SM-2-->
 			<div class="col-sm drie"><!--COL-SM-3-->
 			<div class="avatar seo">
-			<img src="<?php the_field('diensten_column_3_afbeelding') ?>" alt="" srcset="">
+			<img src="<?php echo $kolom_rechts['diensten_column_3_afbeelding']; ?>" alt="" srcset="">
 			</div>
-			<h5><?php the_field('diensten_column_3_titel'); ?></h5>
+			<h5><?php echo $kolom_rechts['diensten_column_3_titel']; ?></h5>
 				<div class="subtext">
-				<p><?php the_field('diensten_column_3_samenvatting'); ?></p>
-					<a src="<?php the_field('diensten_column_3_url'); ?>"><?php the_field('diensten_column_3_link'); ?></a>
+				<p><?php echo $kolom_rechts['diensten_column_3_samenvatting']; ?></p>
+					<a src="<?php echo $kolom_rechts['diensten_column_3_url']; ?>"><?php echo $kolom_rechts['diensten_column_3_link']; ?></a>
 				</div>
 			</div><!--COL-SM-3-->
 		</div><!--ROW-->
@@ -63,9 +66,9 @@
 					
 					<?php
 						$args = array(
-								'post_type' => 'post', // This is the name of your post type - change this as required,
-								'posts_per_page' => -1, // This is the amount of posts per page you want to show
-								'category_name' => 'portfolio'
+								'post_type' => 'project', // This is the name of your post type - change this as required,
+								'posts_per_page' => 4 // This is the amount of posts per page you want to show
+								// 'category_name' => 'portfolio'
             		);
 
 					$post_query = new WP_Query($args);
@@ -80,6 +83,7 @@
 							<!-- <div class="news-item"> -->
 							<figure class="img-container">
 								<?php the_post_thumbnail('large'); ?>
+								
 							</figure>
 								<div class="bericht">
 									<?php //the_excerpt(); ?>

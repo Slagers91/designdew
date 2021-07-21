@@ -247,3 +247,34 @@ function register_assets()
 add_action('wp_enqueue_scripts', 'register_assets');
 
 define('THEMEDIR', get_template_directory_uri());
+
+//PROJECTEN CPT
+function projecten_cpt() {
+	$labels = array(
+	  'name'               => _x( 'Projecten', 'post type general name' ),
+	  'singular_name'      => _x( 'Projecten', 'post type singular name' ),
+	  'add_new'            => _x( 'Nieuw project', 'project' ),
+	  'add_new_item'       => __( 'Voeg nieuw project toe' ),
+	  'edit_item'          => __( 'Bewerk Project' ),
+	  'new_item'           => __( 'Nieuw Project' ),
+	  'all_items'          => __( 'Alle Projecten' ),
+	  'view_item'          => __( 'Bekijk Projecten' ),
+	  'search_items'       => __( 'Zoek Projecten' ),
+	  'not_found'          => __( 'Geen project gevonden' ),
+	  'not_found_in_trash' => __( 'Geen projecten gevonden in prullenbak' ),
+	  'menu_name'          => 'Projecten',
+	  'rewrite'     => array( 'slug' => 'project' )
+	);
+	$args = array(
+	  'labels'        => $labels,
+	  'description'   => 'Hier bevinden zich alle projecten van Designdew',
+	  'public'        => true,
+	  'menu_position' => 4,
+	  'supports'      => array( 'title', 'thumbnail','page-attributes'),
+	  'hierarchical'  => true,
+	  'has_archive'   => true,
+	  'show_in_rest' => true,
+	);
+	register_post_type( 'project', $args );
+  }
+  add_action( 'init', 'projecten_cpt' );

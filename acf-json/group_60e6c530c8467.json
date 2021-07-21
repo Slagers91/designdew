@@ -44,9 +44,9 @@
     "location": [
         [
             {
-                "param": "post_category",
+                "param": "post_type",
                 "operator": "==",
-                "value": "category:portfolio"
+                "value": "project"
             }
         ]
     ],
@@ -58,5 +58,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1626342859
+    "modified": 1626893413
 }
