@@ -68,7 +68,7 @@
 						$args = array(
 								'post_type' => 'project', // This is the name of your post type - change this as required,
 								'posts_per_page' => 4 // This is the amount of posts per page you want to show
-								// 'category_name' => 'portfolio'
+
             		);
 
 					$post_query = new WP_Query($args);
